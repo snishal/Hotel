@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+	background-image: url('../images/b1.jpg');
+}
+.parallax {
+    background-image: url('../images/r11.jpg');
+    height: 100%;
+	background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parallax1 {
+    background-image: url('../images/r7.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax2 {
+    background-image: url('../images/r2.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax3 {
+    background-image: url('../images/r10.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax4 {
+    background-image: url('../images/r4.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax5 {
+    background-image: url('../images/r5.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax6 {
+    background-image: url('../images/r6.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax7 {
+    background-image: url('../images/r9.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax8 {
+    background-image: url('../images/r1.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax9 {
+    background-image: url('../images/r8.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}
+.parallax10 {
+    background-image: url('../images/r12.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size:cover;
+}

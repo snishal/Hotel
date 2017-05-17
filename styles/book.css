@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+article{
+    align-items: center;
+    width: 70%;
+    margin: auto
+}
+h2{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+hr{
+    margin-top: 10px;
+}
+form{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+input[type=date]{
+    margin-right: 15%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px black groove;
+    width: 15%;
+    outline: none;
+    transition: all .5s ease-in-out;
+}
+
+input[type=date]:focus{
+    width: 20%;
+}
+
+button[type=submit]{
+    outline: none;
+    background: black;
+}
+
+button[type=submit]:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.columns {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    color: white;
+    font-size: 25px;
+    align-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    min-height: 140px;
+    padding-top: 90px;
+}
+
+.price #room1 {
+    background-image: url("../images/singlestandard.jpg");
+}
+
+.price #room2 {
+    background-image: url("../images/double standard.jpg");
+}
+
+.price #room3 {
+    background-image: url("../images/deluxe single.jpg");
+}
+
+.price #room4 {
+    background-image: url("../images/deluxe double.jpg");
+}
+
+.price #room5 {
+    background-image: url("../images/super deluxe single.jpg");
+}
+
+.price #room6 {
+    background-image: url("../images/super deluxe double.jpg");
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.alert {
+    margin-top : 30px;
+    padding: 20px;
+    background-color: #4CAF50; 
+    color: white;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 20px;
+    background-color: rgba(150,0,0,0.8);
+    color: white;
+}
+
+.modal-body {
+    padding: 20px;
+    font-size: 25px;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+}
+
+.modal-footer {
+    padding: 20px;
+    background-color: rgba(150,0,0,0.8);
+    color: white;
+}

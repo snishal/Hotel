@@ -1,0 +1,64 @@
+body{
+	background-image:url("../images/back_pattern.jpg");
+	
+}
+
+.dining1{
+	width:100%;
+	height:425px;
+}
+ul.dining{
+    padding: 45px;
+    background-color: #3468af;
+    opacity: 0.4;
+}
+
+ul.dining li{
+    padding: 50px;
+	display: inline;
+	font-family: sans-serif;
+	font-size:20px;
+}
+
+ul.dining a{
+	text-decoration: none;
+	color: white;
+    transition: all 0.75s ease-in-out;
+}
+
+ul.dining a:hover{
+    padding: 14px;
+    font-size: 30px;
+    background-color:#040c77;
+    color: white;
+    border-radius: 12px;
+    
+}
+h2.logo{
+	padding-top:50px;
+	padding-bottom:30px;
+	padding-left:200px;
+}
+h3.enjoy{
+	padding-left:200px;
+}
+h4.para {
+	padding-left:200px;
+	padding-bottom:100px;
+}
+ul.photo{
+	text-decoration:none;
+	padding-left:150px;
+}
+ul.photo li{
+	list-style-type:none;
+	padding-left:50px;
+	display:inline;
+}
+ul.photo li img{
+	border:5px solid white;
+}
+ul.photo li img:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}

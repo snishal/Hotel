@@ -1,0 +1,39 @@
+#head{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.image{
+    padding-left:50px;
+    padding-top: 13px;
+    padding-right: 25px;
+}
+
+ul.main{
+    width: 90%;
+    padding: 25px;
+    padding-top: 35px; 
+    box-shadow: 0px 4px rgba(0,0,255,0.4);
+    background-color: rgba(51,204,255,0.4);
+}
+
+ul.main li{
+    padding: 25px;
+	display: inline;
+	font-family: sans-serif;
+	font-size:18px;
+}
+
+ul.main a{
+	text-decoration: none;
+	color:white;
+    transition: all 0.75s ease-in-out;
+}
+
+ul.main a:hover{
+    padding: 14px;
+    font-size: 30px;
+    background-color:rgba(0,0,255,0.4);
+    color: slateblue;
+    border-radius: 12px;
+}

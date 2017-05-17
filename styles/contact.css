@@ -1,0 +1,57 @@
+#text{
+    width: 50%;
+    margin: 100px auto 0px auto;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#form{
+    width: 70%;
+    margin: 50px auto 100px auto;
+    background: #f2f2f2;
+    border-radius: 14px;
+    text-align: center;
+}
+
+label{
+    vertical-align: middle;
+}
+
+input{
+    margin: 30px;
+    background: none;
+    border:none;
+    border-bottom: solid thin dodgerblue;
+    height: 25px;
+    width:100px;
+    transition: all .5s ease-in-out;
+}
+
+input:hover{
+    border: solid thin dodgerblue;
+}
+
+input:focus{
+    width:300px;
+}
+
+textarea{
+    vertical-align: middle;
+    background: none;
+    border: solid thin dodgerblue;
+}
+
+button{
+    outline: none;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin:30px auto;
+    cursor: pointer;
+}
